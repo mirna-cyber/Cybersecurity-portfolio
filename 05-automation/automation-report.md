@@ -20,3 +20,12 @@ This Python script analyzes Linux authentication logs to detect potential SSH br
 ## Security Impact
 
 Automating log analysis improves detection speed and reduces manual investigation time.
+
+## Automation Enhancements
+
+- Simulated automatic IP blocking
+- Simulated SOC email alert notification
+- Configurable detection threshold
+- Timestamped alert reporting
+
+This demonstrates basic Security Orchestration and Automated Response (SOAR) concepts.

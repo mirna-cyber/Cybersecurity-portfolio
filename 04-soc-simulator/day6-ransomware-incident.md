@@ -70,3 +70,29 @@ On February 26, 2026, a high-severity security alert was triggered indicating po
 
 The incident was identified as a simulated ransomware attack. 
 Rapid detection and response limited impact and prevented further system compromise.
+
+---
+
+## MITRE ATT&CK Mapping
+
+The simulated ransomware activity aligns with the following MITRE ATT&CK tactics and techniques:
+
+### Initial Access
+- T1566.001 — Phishing: Spearphishing Attachment  
+(User downloaded suspicious file)
+
+### Execution
+- T1204.002 — User Execution: Malicious File  
+(User executed the downloaded file)
+
+### Impact
+- T1486 — Data Encrypted for Impact  
+(Files renamed with .encrypted extension)
+
+### Defense Evasion
+- T1070 — Indicator Removal on Host  
+(Potential log/file modification)
+
+---
+
+This mapping demonstrates how the attack fits into the MITRE ATT&CK framework and provides structured threat classification.

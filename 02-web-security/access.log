@@ -1,0 +1,5 @@
+192.168.1.15 - - [21/Feb/2026:10:12:01] "GET /index.php?id=1 HTTP/1.1" 200 512
+192.168.1.25 - - [21/Feb/2026:10:13:45] "GET /login.php?user=admin' OR '1'='1 HTTP/1.1" 200 620
+192.168.1.25 - - [21/Feb/2026:10:14:02] "GET /login.php?user=admin'-- HTTP/1.1" 200 610
+192.168.1.40 - - [21/Feb/2026:10:15:20] "GET /products.php?id=5 HTTP/1.1" 200 700
+192.168.1.25 - - [21/Feb/2026:10:16:10] "GET /login.php?user=admin' OR 1=1-- HTTP/1.1" 200 630
